@@ -1,0 +1,46 @@
+*{
+     box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+body{
+     background-color: #eee;
+}
+h1{
+     padding: 20px;
+     margin: 0 0 20px;
+     background-color: white;
+     text-align: center;
+}
+.currency-container {
+margin: 20px auto;
+max-width: 600px;
+background-color: #ddd;
+padding: 20px;
+}
+.currency-container input,
+.currency-container select {
+     width: 100%;
+     padding: 10px;
+     margin: 10px 0;
+     border: none;
+     border-radius: 5px;
+     font-size: 16px;
+}
+.currency-container input:focus,
+.currency-container select:focus {
+     outline: none;
+}
+.currency-container button {
+     padding: 10px;
+     margin: 10px auto;
+     display: block;
+     width: 100%;
+     background-color: #2196f3;
+     color: white;
+     border: none;
+     font-size: 18px;
+     font-weight: bold;
+     cursor: pointer;
+}
